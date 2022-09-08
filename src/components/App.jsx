@@ -1,6 +1,5 @@
-import Profile from './Profile/Profile';
-
-import user from '../data/user.json';
+import ProfileList from './Profile/ProfileList';
+import users from '../data/user.json';
 
 export const App = () => {
   return (
@@ -14,7 +13,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Profile user={user} />
+      <ProfileList items={users} />
     </div>
   );
 };
