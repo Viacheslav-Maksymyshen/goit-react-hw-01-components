@@ -31,10 +31,10 @@ export default function Profile(props) {
   );
 }
 
-// Profile.prototype = {
-//   username: PropTypes.string,
-//   tag: PropTypes.string,
-//   location: PropTypes.string,
-//   avatar: PropTypes.string,
-//   stats: PropTypes.object,
-// };
+Profile.prototype = {
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  stats: PropTypes.object,
+};
