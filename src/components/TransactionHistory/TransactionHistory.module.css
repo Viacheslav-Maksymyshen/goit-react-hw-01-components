@@ -1,5 +1,5 @@
 .transaction__history {
-  margin: 20px auto 0 auto;
+  margin: 20px auto 50px auto;
   width: 600px;
   border-collapse: collapse;
   border-spacing: 0;
@@ -19,11 +19,21 @@
 
 th {
   width: calc(100% / 3);
-  border-right: 1px solid #079aab;
+}
+
+th:not(:last-child) {
+  border-right: 1px solid #fafafa;
 }
 
 .transaction__item {
   height: 40px;
   text-align: center;
   text-transform: capitalize;
+}
+
+td:not(:last-child) {
+  border-right: 1px solid grey;
+}
+tr:nth-child(2n) {
+  background-color: rgb(214, 211, 211);
 }
