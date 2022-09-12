@@ -11,10 +11,6 @@
 
   margin-bottom: 10px;
 }
-.status {
-  width: 20px;
-  height: 20px;
-}
 
 .avatar {
   margin-left: 15px;
@@ -25,4 +21,20 @@
   margin-left: 15px;
   font-size: 24px;
   font-weight: 700;
+}
+
+.status {
+  display: block;
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.isOnline {
+  display: block;
+  background-color: green;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
 }
